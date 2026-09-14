@@ -1,0 +1,17 @@
+{
+  "skill_name": "literature-note",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you make a literature note from this RPA paper for my thesis? It's at fixtures/lindqvist-2023-rpa-sme.txt",
+      "expected_output": "Note in exact template; quotes verbatim with printed page numbers (e.g. p. 214); no quotation marks in summary sections; findings limited to source; author limitations separated from own critique.",
+      "files": ["fixtures/lindqvist-2023-rpa-sme.txt"]
+    },
+    {
+      "id": 2,
+      "prompt": "I saved this consultancy report on automation (fixtures/northgate-2025-automation-report.html). Please add it to my Research folder as a note, I might cite the 22% number.",
+      "expected_output": "Note in exact template; Type consultancy report; quality medium/low citing self-reported survey and commercial interest; quotes marked (no page number) instead of guessed pages; no invented findings.",
+      "files": ["fixtures/northgate-2025-automation-report.html"]
+    }
+  ]
+}
