@@ -49,3 +49,10 @@ rules are in [SKILL.md](SKILL.md).
 
 [`evals/evals.json`](evals/evals.json) has two test cases (one source with page numbers, one
 without) checking that the skill follows the template and never guesses a page number.
+
+## Status
+
+I built this for my own workflow, to match my personal literature note template exactly. It's
+intentionally simple and only checked against the two eval cases and my own use, so there's
+plenty of room to make it more robust (better handling of edge cases, more source types, more
+tests). Feel free to fork it and adjust the template or rules to your own needs.
